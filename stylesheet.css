@@ -1,5 +1,4 @@
 
-
 body {
 	font-family: 'Jost';
 	
@@ -52,7 +51,7 @@ iframe{
     color: #ffffff;
    
     border-radius: 20px 20px 20px 20px;
-    border: 2px solid #4444446 !important;
+    border: 2px solid #444444 !important;
 }
 
 .btn-custom:hover {
