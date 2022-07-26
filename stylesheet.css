@@ -45,21 +45,6 @@ iframe{
 .text-blue{
     color: #508fd3;
 }
-.btn-custom {
-
-    background-color: #444444 !important;
-    color: #ffffff;
-   
-    border-radius: 20px 20px 20px 20px;
-    border: 2px solid #444444 !important;
-}
-
-.btn-custom:hover {
-    background-color: #ED6436 !important;
-    color: #ffffff;
-    
-}
-
 
 .navbar .navbar-nav .nav-item .nav-link {
 	font-size: 1.1rem;
