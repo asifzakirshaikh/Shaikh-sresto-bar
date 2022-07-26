@@ -1,0 +1,152 @@
+
+
+body {
+	font-family: 'Jost';
+	
+}
+
+span.changing-text {
+    border-right: 2px solid #c1cad6;
+    animation: blink 1s infinite;
+    color: #508fd3;
+}
+
+
+.floating { 
+    animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+
+iframe{
+    width: 100%;
+    
+}
+
+.full-height {
+    min-height: 110vh;
+}
+
+.bg-gray{
+    background-color: #cccccc;
+}
+
+.bg-red{
+    background-color: #ff9999;
+}
+
+.text-blue{
+    color: #508fd3;
+}
+.btn-custom {
+
+    background-color: #444444 !important;
+    color: #ffffff;
+   
+    border-radius: 20px 20px 20px 20px;
+    border: 2px solid #4444446 !important;
+}
+
+.btn-custom:hover {
+    background-color: #ED6436 !important;
+    color: #ffffff;
+    
+}
+
+
+.navbar .navbar-nav .nav-item .nav-link {
+	font-size: 1.1rem;
+	color: #000000;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+	color: #508fd3;
+}
+
+.navbar .navbar-nav .dropdown .dropdown-menu {
+	min-width: 200px;
+}
+
+.navbar .navbar-nav .dropdown .dropdown-menu li .dropdown-item:hover {
+	color: #508fd3;
+	background-color: transparent;
+}
+
+.dropdown:hover .dropdown-menu { 
+	display: inline-block; 
+}
+
+.offcanvas .offcanvas-body .nav .nav-link {
+    font-size: 1.1rem;
+    color: #000000 !important;
+    font-weight: bold;
+}
+
+.offcanvas .offcanvas-body .nav .nav-link:hover {
+    color: #1a7cc2 !important;
+}
+
+.text-red {
+    color: #e7404a;
+}
+
+.btn-red {
+    background-color: #e7404a;
+    color: #ffffff;
+}
+
+.btn-red:hover,
+.btn-red:active {
+    background-color: #cc1925;
+    color: #ffffff;
+}
+
+
+.rotate {
+  transition: transform .9s ease-in-out;
+}
+
+.rotate:hover {
+  transform: rotate(100deg);
+}
+
+
+
+
+@media (max-width: 768px){
+    .card1{
+       width: 300px;
+       margin-top: 10px;
+    }
+    .card2{
+        max-width: 325px !important;
+    }
+
+    .img-1{
+        display: none;
+    }
+}
+
+.background-one{
+    background: url('https://images.pexels.com/photos/6089654/pexels-photo-6089654.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.background-two{
+    background: url('https://images.pexels.com/photos/1660030/pexels-photo-1660030.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
