@@ -118,23 +118,6 @@ iframe{
   transform: rotate(100deg);
 }
 
-
-
-
-@media (max-width: 768px){
-    .card1{
-       width: 300px;
-       margin-top: 10px;
-    }
-    .card2{
-        max-width: 325px !important;
-    }
-
-    .img-1{
-        display: none;
-    }
-}
-
 .background-one{
     background: url('https://images.pexels.com/photos/6089654/pexels-photo-6089654.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-size: cover;
