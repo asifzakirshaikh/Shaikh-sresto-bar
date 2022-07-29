@@ -101,10 +101,10 @@
           </h5>
 
           <div class="col-12 p-4">
-           <form method="POST" action="">
+           <form method="POST" name="myform" action="">
                 <div class="mb-3">  
                   
-                    <input type="email" class="form-control rounded-4" name="email" id="email" placeholder="Email Address" aria-describedby="emailHelp">
+                    <input type="email" class="form-control rounded-4 inputText" name="email" id="email" placeholder="Email Address" aria-describedby="emailHelp">
                 </div>
             
                 <div class="mb-3">
@@ -120,7 +120,7 @@
                
                 <div class="text-center my-4">
                     <div class="d-grid gap-1">
-                    <button type="submit" class="btn btn-red rounded-3">Sign in</button>
+                    <button type="submit" name="log" id="logButton" value="login" onclick="myfunction()" class="btn btn-red rounded-3">Sign in</button>
                   </div>
                 </div>
                 
@@ -208,6 +208,19 @@
     }
   });
   
+</script>
+<script type="text/javascript">
+    function myfunction() {
+        var ue = document.forms["myform"]["email"].value;
+        var pw = document.forms["myform"]["password"].value;
+        if (ue=="asif@gmail.com" && pw=="1234") 
+        {
+            window.location.href="hello.html"
+        }else
+        {
+            alert("Invalid Email and Password");
+        }
+    }
 </script>
   </body>
 </html>
